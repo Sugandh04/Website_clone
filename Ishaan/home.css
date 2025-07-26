@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    color: white;
+}
+
+header {
+    background-color: black;
+    padding: 6px 0px;
+    border-bottom: 1px solid #282828;
+}
+
+.nav_icon img,.nav_buttons img {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.nav_first{
+    display: flex;
+    justify-content: left;
+}
+.nav_icon{
+    padding-left: 20px;
+    padding-top: 8px;
+}
+
+.nav_icon a {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.search{
+    background: rgb(42, 42, 42);
+    border-radius: 500px;
+    cursor: pointer;
+    padding-inline-end: 106px;
+    height: 40px;
+    padding-left: 36px;
+}
+.border_left{
+    border-right: 2px solid white;
+    border-radius: 0%;
+}
+.nav_buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    all: unset;  
+    padding: 8px 16px;
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    font-weight:bold;
+}
+
+
+.login_button{
+    background-color: white;
+    color: #191414;
+    font-weight: bold;
+}
+.signup_button{
+    border:1px solid white;
+
+}
+
+ 
