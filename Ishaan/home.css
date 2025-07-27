@@ -5,14 +5,9 @@
 }
 
 body {
-    background-color: #121212;
+    background-color: black;
     color: white;
     font-family: 'Montserrat', sans-serif;
-}
-
-header {
-    background-color: black;
-    padding: 6px 0px;
 }
 
 .nav_icon img,.nav_buttons img {
@@ -43,9 +38,9 @@ nav {
 }
 .search{
     background: rgb(42, 42, 42);
-    border-radius: 500px;
+    border-radius: 450px;
     cursor: pointer;
-    padding-inline-end: 106px;
+    padding-inline-end: 300px;
     height: 40px;
     padding-left: 36px;
 }
@@ -90,7 +85,8 @@ button {
     padding: 15px;
     height: 575px;
     border-radius: 10px;
-    display: block;
+    display: flex;
+    flex-direction: column;
     padding-right: 35px;
 }
 .home_left_panel1{
@@ -110,6 +106,8 @@ button {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .box_home_left1_button{
     background-color: white;
