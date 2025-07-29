@@ -95,17 +95,22 @@ button {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    padding-right: 35px;
+    padding-right: 25px;
 }
 
 .home_left_panel1 {
     background-color: #282828;
     width: 100%;
     margin: 0.5%;
-    padding: 15px;
+    padding: 4px;
     display: flex;
     justify-content: space-between;
-    padding-right: 15px;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.add_icon {
+    font-size: 30px;
 }
 
 .box_home_left1 {
@@ -160,6 +165,7 @@ button {
 
 .section {
     display: flex;
+    height: 575px;
 }
 
 .home_right {
@@ -167,19 +173,49 @@ button {
     width: 70%;
     margin: 0.5%;
     padding: 25px 40px;
-    height: 575px;
+    height: 100%;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     padding-right: 35px;
-    overflow-y: auto;
+    gap: 12px;
+    overflow-y:auto;
 }
-.trending_now{
+
+.trending_now {
     display: flex;
     overflow-x: auto;
     gap: 20px;
     padding-bottom: 10px;
     scrollbar-width: none;
+    overflow-y: hidden;
+}
+
+.popular_artist {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding-bottom: 10px;
+    scrollbar-width: none;
+    overflow-y: hidden;
+}
+
+.popular_albums_and_singles {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding-bottom: 10px;
+    scrollbar-width: none;
+    overflow-y: hidden;
+}
+
+.popular_radio {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding-bottom: 10px;
+    scrollbar-width: none;
+    overflow-y: hidden;
 }
 
 .card {
@@ -190,7 +226,6 @@ button {
     height: auto;
     min-height: 225px;
     display: flex;
-    flex: 0 0 auto;
     flex-direction: column;
     align-items: center;
     padding: 10px;
